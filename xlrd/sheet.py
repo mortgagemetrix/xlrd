@@ -389,7 +389,7 @@ class Sheet(BaseObject):
         self._cell_attr_to_xfx = {} # BIFF2.0 only
 
 #         if self.biff_version >= 80:
-            self.utter_max_rows = 65536
+        self.utter_max_rows = 65536
 #         else:
 #             self.utter_max_rows = 16384
         self.utter_max_cols = 256
